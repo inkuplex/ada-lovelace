@@ -1,12 +1,16 @@
 body {
-  background-image:url(http://s1.bwallpapers.com/wallpapers/2014/02/11/violet-color-background_092209769.jpg);
+  background-image:url(purple.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
 }
 
+.navbar a{
+  color: (245, 245, 245, 1);
+}
+
 h1 {
-  font-family: Palatino Linotype;
+  font-family: cursive;
   color:#907;
   background-color:#FFA1FF;
   margin: auto;
@@ -18,8 +22,8 @@ h1 {
 
 h5 {
    font-family: Palatino Linotype;
-   color:#907;
-   background-color:#FFA1FF;
+   color:rgba(245, 245, 245, 1);
+   background-color:#714571;
    border-radius:5px;
    padding: 7px 10px;
    margin-top: 0;
@@ -29,30 +33,38 @@ img {
   width:250px;
   margin:auto;
   display:inline-block;
-  border: solid medium white;
+  border: solid medium rgba(245, 245, 245, 1);
   box-shadow:2px 0px 4px black;
 }
 
 #subtitle {
   font-size:13pt;
-  color:rgb(200, 200, 200);
+  color:rgba(245, 245, 245, 1);
   font-family: Palatino Linotype;
 }
 
 #facts {
-  border: solid medium white;
+  border: solid medium rgba(245, 245, 245, 1);
   padding:15px;
-  background-color:rgb(200, 70, 200);
+  background-color:rgb(195, 142, 195);
   display:inline-block;
   box-shadow:2px 0px 4px black;
+  max-width:250px;
+  position:relative;
+  left:10px;
+}
+
+#facts a {
+  color: black;
 }
 
 #summary {
-  border: solid medium white;
-  background-color: rgb(225, 119, 200);
+  border: solid medium rgba(245, 245, 245, 1);
+  background-color: rgb(195, 142, 195);
   box-shadow:2px 0px 4px black;
   color:black;
   padding:15px;
   font-family: Palatino Linotype;
   display:inline-block;
+  max-width:800px;
 }
